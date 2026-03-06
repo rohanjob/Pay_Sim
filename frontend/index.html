@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Authorized DevSecOps Payment Gateway Cybersecurity Simulation Environment - Educational Training Platform">
+  <title>DevSecOps Payment Gateway Control Temple | Cybersecurity Simulation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <!-- PERSISTENT HOLOGRAPHIC WATERMARK -->
+  <div id="watermark-overlay">
+    <div class="watermark-text">AUTHORIZED CYBERSECURITY TRAINING ENVIRONMENT – DEVSECOPS PAYMENT GATEWAY SIMULATION
+      MODE</div>
+    <div class="watermark-text">AUTHORIZED CYBERSECURITY TRAINING ENVIRONMENT – DEVSECOPS PAYMENT GATEWAY SIMULATION
+      MODE</div>
+    <div class="watermark-text">AUTHORIZED CYBERSECURITY TRAINING ENVIRONMENT – DEVSECOPS PAYMENT GATEWAY SIMULATION
+      MODE</div>
+    <div class="watermark-text">AUTHORIZED CYBERSECURITY TRAINING ENVIRONMENT – DEVSECOPS PAYMENT GATEWAY SIMULATION
+      MODE</div>
+    <div class="watermark-text">AUTHORIZED CYBERSECURITY TRAINING ENVIRONMENT – DEVSECOPS PAYMENT GATEWAY SIMULATION
+      MODE</div>
+    <div class="watermark-text">AUTHORIZED CYBERSECURITY TRAINING ENVIRONMENT – DEVSECOPS PAYMENT GATEWAY SIMULATION
+      MODE</div>
+  </div>
+
+  <!-- CRT SCAN LINE OVERLAY -->
+  <div id="crt-overlay"></div>
+  <div id="crt-flicker"></div>
+
+  <!-- CANVAS LAYERS -->
+  <canvas id="bg-deep-space"></canvas>
+  <canvas id="bg-fog-beams"></canvas>
+  <canvas id="bg-neural-grid"></canvas>
+  <canvas id="bg-matrix-rain"></canvas>
+  <canvas id="bg-vault-core"></canvas>
+  <canvas id="bg-particles"></canvas>
+  <canvas id="fg-interactions"></canvas>
+
+  <!-- MAIN APPLICATION -->
+  <div id="app">
+    <!-- TOP HOLOGRAPHIC BANNER -->
+    <header id="holo-header">
+      <div class="header-left">
+        <div class="logo-glyph">
+          <span class="glyph-ring"></span>
+          <span class="glyph-core">⬡</span>
+        </div>
+        <div class="header-title">
+          <h1>PAYMENT GATEWAY CONTROL TEMPLE</h1>
+          <p class="subtitle">QUANTUM-ENCRYPTED DEVSECOPS SIMULATION ENGINE v4.2.1</p>
+        </div>
+      </div>
+      <div class="header-center">
+        <div class="auth-badge" id="authBadge">
+          <span class="auth-icon">🔐</span>
+          <span class="auth-text">SIMULATION ACTIVE</span>
+          <span class="auth-pulse"></span>
+        </div>
+      </div>
+      <div class="header-right">
+        <button class="cart-toggle-btn" id="cart-toggle">
+          <span class="cart-icon">🛒</span>
+          <span class="cart-badge" id="cart-badge">0</span>
+        </button>
+        <div class="sys-clock" id="sysClock">00:00:00</div>
+        <div class="threat-level" id="threatLevel">
+          <span class="threat-label">THREAT LEVEL</span>
+          <span class="threat-value" data-level="low">NOMINAL</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- NAVIGATION RINGS -->
+    <nav id="nav-rings">
+      <button class="nav-ring active" data-module="transaction-flow" id="nav-transactions">
+        <span class="ring-icon">⟐</span>
+        <span class="ring-label">Transaction Flow</span>
+      </button>
+      <button class="nav-ring" data-module="cicd-pipeline" id="nav-cicd">
+        <span class="ring-icon">⟁</span>
+        <span class="ring-label">CI/CD Pipeline</span>
+      </button>
+      <button class="nav-ring" data-module="blockchain" id="nav-blockchain">
+        <span class="ring-icon">⬡</span>
+        <span class="ring-label">Blockchain Ledger</span>
+      </button>
+      <button class="nav-ring" data-module="neural-net" id="nav-neural">
+        <span class="ring-icon">⟠</span>
+        <span class="ring-label">Neural Detection</span>
+      </button>
+      <button class="nav-ring" data-module="threat-intel" id="nav-threat">
+        <span class="ring-icon">◈</span>
+        <span class="ring-label">Threat Intel</span>
+      </button>
+      <button class="nav-ring" data-module="cloud-infra" id="nav-cloud">
+        <span class="ring-icon">☁</span>
+        <span class="ring-label">Cloud Infra</span>
+      </button>
+      <button class="nav-ring" data-module="products" id="nav-products">
+        <span class="ring-icon">🛒</span>
+        <span class="ring-label">Products & Cart</span>
+      </button>
+    </nav>
+
+    <!-- MODULE CONTAINER -->
+    <main id="module-container">
+
+      <!-- ====== TRANSACTION FLOW MODULE ====== -->
+      <section class="module active" id="module-transaction-flow">
+        <div class="module-grid transaction-grid">
+          <!-- Tier 1: Client Layer -->
+          <div class="tier-panel tier-client" id="tier-client">
+            <div class="tier-header">
+              <span class="tier-glyph">▲</span>
+              <h2>TIER 1: CLIENT GATEWAY</h2>
+              <span class="tier-status online">ONLINE</span>
+            </div>
+            <div class="tier-body">
+              <div class="metric-card" id="metric-tps">
+                <div class="metric-label">TRANSACTIONS/SEC</div>
+                <div class="metric-value" data-value="0">0</div>
+                <div class="metric-bar">
+                  <div class="metric-fill" style="width: 0%"></div>
+                </div>
+              </div>
+              <div class="metric-card" id="metric-latency">
+                <div class="metric-label">AVG LATENCY</div>
+                <div class="metric-value">0<span class="metric-unit">ms</span></div>
+                <div class="metric-sparkline"><canvas class="sparkline-canvas"></canvas></div>
+              </div>
+              <div class="metric-card" id="metric-ssl">
+                <div class="metric-label">TLS HANDSHAKES</div>
+                <div class="metric-value">0</div>
+                <div class="metric-indicator secure">ENCRYPTED</div>
+              </div>
+              <button class="action-btn initiate-tx" id="btn-initiate-tx">
+                <span class="btn-glyph">⚡</span>
+                INITIATE TRANSACTION
+                <span class="btn-ripple"></span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Transaction Visualization Canvas -->
+          <div class="tx-flow-visual" id="tx-flow-visual">
+            <canvas id="tx-flow-canvas"></canvas>
+            <div class="tx-status-overlay" id="tx-status">
+              <span class="tx-status-text">AWAITING TRANSACTION</span>
+            </div>
+          </div>
+
+          <!-- Tier 2: Processing Layer -->
+          <div class="tier-panel tier-process" id="tier-process">
+            <div class="tier-header">
+              <span class="tier-glyph">◆</span>
+              <h2>TIER 2: PROCESSING ENGINE</h2>
+              <span class="tier-status online">ONLINE</span>
+            </div>
+            <div class="tier-body">
+              <div class="process-node" id="node-api-gateway">
+                <div class="node-icon">🛡️</div>
+                <div class="node-name">API Gateway</div>
+                <div class="node-status idle">IDLE</div>
+              </div>
+              <div class="process-node" id="node-load-balancer">
+                <div class="node-icon">⚖️</div>
+                <div class="node-name">Load Balancer</div>
+                <div class="node-status idle">IDLE</div>
+              </div>
+              <div class="process-node" id="node-jwt-auth">
+                <div class="node-icon">🔑</div>
+                <div class="node-name">JWT Authenticator</div>
+                <div class="node-status idle">IDLE</div>
+              </div>
+              <div class="process-node" id="node-tokenizer">
+                <div class="node-icon">🧬</div>
+                <div class="node-name">Tokenization Engine</div>
+                <div class="node-status idle">IDLE</div>
+              </div>
+              <div class="process-node" id="node-fraud-detect">
+                <div class="node-icon">🔍</div>
+                <div class="node-name">Fraud Detection AI</div>
+                <div class="node-status idle">IDLE</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tier 3: Settlement Layer -->
+          <div class="tier-panel tier-settle" id="tier-settle">
+            <div class="tier-header">
+              <span class="tier-glyph">▼</span>
+              <h2>TIER 3: SETTLEMENT VAULT</h2>
+              <span class="tier-status online">ONLINE</span>
+            </div>
+            <div class="tier-body">
+              <div class="vault-visual" id="vault-visual">
+                <div class="vault-ring ring-1"></div>
+                <div class="vault-ring ring-2"></div>
+                <div class="vault-ring ring-3"></div>
+                <div class="vault-core-icon">🏦</div>
+              </div>
+              <div class="settlement-stats">
+                <div class="stat-item">
+                  <span class="stat-label">SETTLED</span>
+                  <span class="stat-value" id="stat-settled">0</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-label">PENDING</span>
+                  <span class="stat-value" id="stat-pending">0</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-label">FLAGGED</span>
+                  <span class="stat-value" id="stat-flagged">0</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====== CI/CD PIPELINE MODULE ====== -->
+      <section class="module" id="module-cicd-pipeline">
+        <div class="module-grid cicd-grid">
+          <div class="pipeline-container">
+            <h2 class="module-title">DEVSECOPS RITUAL PIPELINE</h2>
+            <div class="pipeline-stages" id="pipeline-stages">
+              <div class="pipeline-stage" data-stage="build" id="stage-build">
+                <div class="stage-glyph">⚙️</div>
+                <div class="stage-sigil"></div>
+                <div class="stage-name">BUILD</div>
+                <div class="stage-status">READY</div>
+              </div>
+              <div class="pipeline-connector">
+                <div class="connector-flow"></div>
+              </div>
+              <div class="pipeline-stage" data-stage="scan" id="stage-scan">
+                <div class="stage-glyph">🔬</div>
+                <div class="stage-sigil"></div>
+                <div class="stage-name">STATIC SCAN</div>
+                <div class="stage-status">READY</div>
+              </div>
+              <div class="pipeline-connector">
+                <div class="connector-flow"></div>
+              </div>
+              <div class="pipeline-stage" data-stage="audit" id="stage-audit">
+                <div class="stage-glyph">📋</div>
+                <div class="stage-sigil"></div>
+                <div class="stage-name">DEP AUDIT</div>
+                <div class="stage-status">READY</div>
+              </div>
+              <div class="pipeline-connector">
+                <div class="connector-flow"></div>
+              </div>
+              <div class="pipeline-stage" data-stage="harden" id="stage-harden">
+                <div class="stage-glyph">🛡️</div>
+                <div class="stage-sigil"></div>
+                <div class="stage-name">CONTAINER HARDEN</div>
+                <div class="stage-status">READY</div>
+              </div>
+              <div class="pipeline-connector">
+                <div class="connector-flow"></div>
+              </div>
+              <div class="pipeline-stage" data-stage="compliance" id="stage-compliance">
+                <div class="stage-glyph">✅</div>
+                <div class="stage-sigil"></div>
+                <div class="stage-name">COMPLIANCE SEAL</div>
+                <div class="stage-status">READY</div>
+              </div>
+              <div class="pipeline-connector">
+                <div class="connector-flow"></div>
+              </div>
+              <div class="pipeline-stage" data-stage="deploy" id="stage-deploy">
+                <div class="stage-glyph">🚀</div>
+                <div class="stage-sigil"></div>
+                <div class="stage-name">DEPLOY</div>
+                <div class="stage-status">READY</div>
+              </div>
+            </div>
+            <button class="action-btn pipeline-trigger" id="btn-trigger-pipeline">
+              <span class="btn-glyph">▶</span>
+              EXECUTE PIPELINE RITUAL
+            </button>
+          </div>
+
+          <!-- K8s Cluster Mini-Map -->
+          <div class="k8s-cluster-panel" id="k8s-panel">
+            <h3 class="panel-subtitle">KUBERNETES CLUSTER HOLOGRAM</h3>
+            <canvas id="k8s-canvas"></canvas>
+            <div class="k8s-stats">
+              <div class="k8s-stat">
+                <span class="k8s-label">PODS</span>
+                <span class="k8s-value" id="k8s-pods">12</span>
+              </div>
+              <div class="k8s-stat">
+                <span class="k8s-label">NODES</span>
+                <span class="k8s-value" id="k8s-nodes">3</span>
+              </div>
+              <div class="k8s-stat">
+                <span class="k8s-label">SERVICES</span>
+                <span class="k8s-value" id="k8s-services">8</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vulnerability Scanner -->
+          <div class="vuln-scanner-panel" id="vuln-panel">
+            <h3 class="panel-subtitle">VULNERABILITY SCANNER</h3>
+            <div class="vuln-log" id="vuln-log">
+              <div class="log-entry info">System initialized. Awaiting pipeline execution...</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====== BLOCKCHAIN LEDGER MODULE ====== -->
+      <section class="module" id="module-blockchain">
+        <div class="module-grid blockchain-grid">
+          <div class="blockchain-visual-panel">
+            <h2 class="module-title">IMMUTABLE AUDIT CHAIN</h2>
+            <canvas id="blockchain-canvas"></canvas>
+          </div>
+          <div class="blockchain-info-panel">
+            <div class="chain-stats">
+              <div class="chain-stat">
+                <span class="chain-label">CHAIN HEIGHT</span>
+                <span class="chain-value" id="chain-height">0</span>
+              </div>
+              <div class="chain-stat">
+                <span class="chain-label">HASH RATE</span>
+                <span class="chain-value" id="hash-rate">0 H/s</span>
+              </div>
+              <div class="chain-stat">
+                <span class="chain-label">REPLICAS</span>
+                <span class="chain-value" id="replica-count">5</span>
+              </div>
+            </div>
+            <button class="action-btn forge-block" id="btn-forge-block">
+              <span class="btn-glyph">⬡</span>
+              FORGE NEW BLOCK
+            </button>
+            <div class="block-log" id="block-log">
+              <div class="log-entry info">Ledger engine online. Genesis block active.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====== NEURAL NET MODULE ====== -->
+      <section class="module" id="module-neural-net">
+        <div class="module-grid neural-grid">
+          <div class="neural-canvas-panel">
+            <h2 class="module-title">AI ANOMALY DETECTION NEURAL MESH</h2>
+            <canvas id="neural-canvas"></canvas>
+          </div>
+          <div class="neural-info-panel">
+            <div class="neural-stats">
+              <div class="neural-stat">
+                <span class="neural-label">SYNAPSES ACTIVE</span>
+                <span class="neural-value" id="synapse-count">0</span>
+              </div>
+              <div class="neural-stat">
+                <span class="neural-label">ANOMALIES DETECTED</span>
+                <span class="neural-value anomaly" id="anomaly-count">0</span>
+              </div>
+              <div class="neural-stat">
+                <span class="neural-label">MODEL ACCURACY</span>
+                <span class="neural-value" id="model-accuracy">99.7%</span>
+              </div>
+            </div>
+            <div class="heatmap-container" id="heatmap-container">
+              <canvas id="heatmap-canvas"></canvas>
+            </div>
+            <button class="action-btn scan-neural" id="btn-scan-neural">
+              <span class="btn-glyph">⟠</span>
+              ACTIVATE NEURAL SCAN
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====== THREAT INTEL MODULE ====== -->
+      <section class="module" id="module-threat-intel">
+        <div class="module-grid threat-grid">
+          <div class="threat-map-panel">
+            <h2 class="module-title">GLOBAL THREAT INTELLIGENCE CENTER</h2>
+            <canvas id="threat-map-canvas"></canvas>
+          </div>
+          <div class="threat-info-panel">
+            <div class="siem-terminal" id="siem-terminal">
+              <div class="terminal-header">
+                <span class="terminal-dot red"></span>
+                <span class="terminal-dot yellow"></span>
+                <span class="terminal-dot green"></span>
+                <span class="terminal-title">SIEM LOG STREAM</span>
+              </div>
+              <div class="terminal-body" id="siem-log">
+                <div class="log-entry info">[INIT] Threat intelligence engine online</div>
+                <div class="log-entry info">[INIT] Connected to 47 threat feeds</div>
+                <div class="log-entry warn">[SCAN] Monitoring 12,847 endpoints</div>
+              </div>
+            </div>
+            <div class="pen-test-panel" id="pen-test-panel">
+              <h3 class="panel-subtitle">ETHICAL PENETRATION TESTING SANDBOX</h3>
+              <button class="action-btn pen-test-btn" id="btn-pen-test">
+                <span class="btn-glyph">⚔️</span>
+                LAUNCH SIMULATED ATTACK
+              </button>
+              <div class="defense-shield-bar">
+                <div class="shield-label">DEFENSE SHIELD</div>
+                <div class="shield-bar">
+                  <div class="shield-fill" id="shield-fill" style="width: 100%"></div>
+                </div>
+                <div class="shield-percent" id="shield-percent">100%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====== CLOUD INFRA MODULE ====== -->
+      <section class="module" id="module-cloud-infra">
+        <div class="module-grid cloud-grid">
+          <div class="cloud-topology-panel">
+            <h2 class="module-title">CLOUD INFRASTRUCTURE CONSTELLATION</h2>
+            <canvas id="cloud-canvas"></canvas>
+          </div>
+          <div class="cloud-info-panel">
+            <div class="zero-trust-panel">
+              <h3 class="panel-subtitle">ZERO TRUST ARCHITECTURE</h3>
+              <div class="trust-rings">
+                <div class="trust-ring ring-identity">
+                  <span>IDENTITY</span>
+                </div>
+                <div class="trust-ring ring-device">
+                  <span>DEVICE</span>
+                </div>
+                <div class="trust-ring ring-network">
+                  <span>NETWORK</span>
+                </div>
+                <div class="trust-ring ring-app">
+                  <span>APPLICATION</span>
+                </div>
+                <div class="trust-ring ring-data">
+                  <span>DATA</span>
+                </div>
+              </div>
+            </div>
+            <div class="biometric-panel" id="biometric-panel">
+              <h3 class="panel-subtitle">BIOMETRIC AUTH HOLOGRAM</h3>
+              <canvas id="biometric-canvas"></canvas>
+              <div class="mfa-status">
+                <span class="mfa-label">MFA STATUS</span>
+                <span class="mfa-value verified">VERIFIED</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====== PRODUCTS & CART MODULE ====== -->
+      <section class="module" id="module-products">
+        <div class="module-grid products-grid">
+          <!-- Product Catalog -->
+          <div class="products-catalog-panel">
+            <h2 class="module-title">GATEWAY SERVICE CATALOG</h2>
+            <div class="products-list" id="products-list">
+              <!-- Products loaded dynamically from API -->
+              <div class="product-card" data-id="1">
+                <div class="product-icon">⚡</div>
+                <div class="product-info">
+                  <h3 class="product-name">API GATEWAY BASIC</h3>
+                  <p class="product-desc">1K req/sec, basic rate limiting, SSL termination</p>
+                  <div class="product-price">$49<span class="price-period">/mo</span></div>
+                </div>
+                <button class="add-to-cart-btn" data-id="1"><span>+ ADD</span></button>
+              </div>
+              <div class="product-card" data-id="2">
+                <div class="product-icon">🛡️</div>
+                <div class="product-info">
+                  <h3 class="product-name">WAF PROTECTION PRO</h3>
+                  <p class="product-desc">DDoS mitigation, SQL injection filter, XSS shield</p>
+                  <div class="product-price">$129<span class="price-period">/mo</span></div>
+                </div>
+                <button class="add-to-cart-btn" data-id="2"><span>+ ADD</span></button>
+              </div>
+              <div class="product-card" data-id="3">
+                <div class="product-icon">🔍</div>
+                <div class="product-info">
+                  <h3 class="product-name">FRAUD DETECTION AI</h3>
+                  <p class="product-desc">ML-powered anomaly detection, real-time scoring</p>
+                  <div class="product-price">$249<span class="price-period">/mo</span></div>
+                </div>
+                <button class="add-to-cart-btn" data-id="3"><span>+ ADD</span></button>
+              </div>
+              <div class="product-card" data-id="4">
+                <div class="product-icon">🧬</div>
+                <div class="product-info">
+                  <h3 class="product-name">TOKENIZATION ENGINE</h3>
+                  <p class="product-desc">PCI-DSS compliant vault, token lifecycle mgmt</p>
+                  <div class="product-price">$199<span class="price-period">/mo</span></div>
+                </div>
+                <button class="add-to-cart-btn" data-id="4"><span>+ ADD</span></button>
+              </div>
+              <div class="product-card" data-id="5">
+                <div class="product-icon">⬡</div>
+                <div class="product-info">
+                  <h3 class="product-name">BLOCKCHAIN LEDGER</h3>
+                  <p class="product-desc">Immutable audit chain, distributed consensus</p>
+                  <div class="product-price">$349<span class="price-period">/mo</span></div>
+                </div>
+                <button class="add-to-cart-btn" data-id="5"><span>+ ADD</span></button>
+              </div>
+              <div class="product-card" data-id="6">
+                <div class="product-icon">🚀</div>
+                <div class="product-info">
+                  <h3 class="product-name">ENTERPRISE GATEWAY</h3>
+                  <p class="product-desc">Unlimited throughput, dedicated cluster, 24/7 SRE</p>
+                  <div class="product-price">$999<span class="price-period">/mo</span></div>
+                </div>
+                <button class="add-to-cart-btn" data-id="6"><span>+ ADD</span></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cart Summary Panel -->
+          <div class="cart-summary-panel" id="cart-summary-panel">
+            <h3 class="panel-subtitle">QUANTUM CART</h3>
+            <div class="cart-items-list" id="cart-items-list">
+              <div class="cart-empty-msg">Cart is empty. Add services to proceed.</div>
+            </div>
+            <div class="cart-totals">
+              <div class="cart-total-row">
+                <span class="cart-total-label">SUBTOTAL</span>
+                <span class="cart-total-value" id="cart-subtotal">$0.00</span>
+              </div>
+              <div class="cart-total-row">
+                <span class="cart-total-label">TAX (18% GST)</span>
+                <span class="cart-total-value" id="cart-tax">$0.00</span>
+              </div>
+              <div class="cart-total-row total-final">
+                <span class="cart-total-label">TOTAL</span>
+                <span class="cart-total-value" id="cart-total">$0.00</span>
+              </div>
+            </div>
+            <button class="action-btn checkout-btn" id="btn-checkout" disabled>
+              <span class="btn-glyph">💳</span>
+              PROCESS PAYMENT
+            </button>
+            <div class="order-log" id="order-log">
+              <div class="log-entry info">Awaiting cart items...</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- CART SIDEBAR (slide-in) -->
+    <aside id="cart-sidebar" class="cart-sidebar">
+      <div class="cart-sidebar-header">
+        <h3 class="cart-sidebar-title">🛒 QUANTUM CART</h3>
+        <button class="cart-close-btn" id="cart-close">✕</button>
+      </div>
+      <div class="cart-sidebar-items" id="cart-sidebar-items">
+        <div class="cart-empty-msg">No items in cart</div>
+      </div>
+      <div class="cart-sidebar-footer">
+        <div class="cart-total-row total-final">
+          <span class="cart-total-label">TOTAL</span>
+          <span class="cart-total-value" id="cart-sidebar-total">$0.00</span>
+        </div>
+        <button class="action-btn checkout-btn" id="btn-sidebar-checkout" disabled>
+          <span class="btn-glyph">💳</span>
+          CHECKOUT
+        </button>
+      </div>
+    </aside>
+
+    <!-- BOTTOM STATUS BAR -->
+    <footer id="status-bar">
+      <div class="status-left">
+        <span class="status-item"><span class="status-dot green"></span>GATEWAY: ACTIVE</span>
+        <span class="status-item"><span class="status-dot green"></span>ENCRYPTION: AES-256-GCM</span>
+        <span class="status-item"><span class="status-dot green"></span>HSM: CONNECTED</span>
+      </div>
+      <div class="status-center">
+        <span class="simulation-badge">⚠ EDUCATIONAL SIMULATION ENVIRONMENT – NO REAL TRANSACTIONS ⚠</span>
+      </div>
+      <div class="status-right">
+        <span class="status-item">UPTIME: <span id="uptime">00:00:00</span></span>
+        <span class="status-item">LOAD: <span id="sys-load">23%</span></span>
+        <span class="status-item">NODES: <span id="active-nodes">7/7</span></span>
+      </div>
+    </footer>
+  </div>
+
+  <!-- GRAVITATIONAL RIPPLE CURSOR -->
+  <div id="cursor-ripple"></div>
+
+  <!-- PAYMENT METHOD MODAL -->
+  <div id="payment-modal" class="payment-modal">
+    <div class="payment-modal-backdrop"></div>
+    <div class="payment-modal-content">
+      <!-- Close Button -->
+      <button class="payment-modal-close" id="payment-modal-close">✕</button>
+
+      <!-- Step 1: Choose Payment Method -->
+      <div class="payment-step active" id="pay-step-select">
+        <h2 class="payment-modal-title">SELECT PAYMENT PROTOCOL</h2>
+        <p class="payment-modal-subtitle">TOTAL: <span id="pay-modal-total">$0.00</span></p>
+        <div class="payment-methods-grid">
+          <button class="pay-method-card" data-method="qr" id="pay-method-qr">
+            <div class="pay-method-icon">📱</div>
+            <div class="pay-method-glow"></div>
+            <h3>QR CODE</h3>
+            <p>Scan & Pay instantly</p>
+            <div class="pay-method-tag">UPI / PhonePe / GPay</div>
+          </button>
+          <button class="pay-method-card" data-method="card" id="pay-method-card">
+            <div class="pay-method-icon">💳</div>
+            <div class="pay-method-glow"></div>
+            <h3>CARD</h3>
+            <p>Credit / Debit Card</p>
+            <div class="pay-method-tag">Visa / Mastercard / RuPay</div>
+          </button>
+          <button class="pay-method-card" data-method="netbanking" id="pay-method-netbanking">
+            <div class="pay-method-icon">🏦</div>
+            <div class="pay-method-glow"></div>
+            <h3>NETBANKING</h3>
+            <p>Direct Bank Transfer</p>
+            <div class="pay-method-tag">All Major Banks</div>
+          </button>
+          <button class="pay-method-card" data-method="emi" id="pay-method-emi">
+            <div class="pay-method-icon">📊</div>
+            <div class="pay-method-glow"></div>
+            <h3>EMI</h3>
+            <p>Easy Monthly Installments</p>
+            <div class="pay-method-tag">3 / 6 / 12 Months</div>
+          </button>
+        </div>
+      </div>
+
+      <!-- Step 2a: QR Code -->
+      <div class="payment-step" id="pay-step-qr">
+        <h2 class="payment-modal-title">SCAN QR TO PAY</h2>
+        <div class="qr-container">
+          <div class="qr-scanner-frame">
+            <div class="qr-corner tl"></div>
+            <div class="qr-corner tr"></div>
+            <div class="qr-corner bl"></div>
+            <div class="qr-corner br"></div>
+            <div class="qr-scan-line"></div>
+            <img src="assets/qr-payment.png" alt="Payment QR Code" class="qr-image" id="qr-image">
+          </div>
+          <div class="qr-timer-ring">
+            <svg viewBox="0 0 100 100" class="qr-timer-svg">
+              <circle cx="50" cy="50" r="45" class="qr-timer-track" />
+              <circle cx="50" cy="50" r="45" class="qr-timer-fill" id="qr-timer-fill" />
+            </svg>
+            <span class="qr-timer-text" id="qr-timer-text">5</span>
+          </div>
+          <p class="qr-instruction">Scan with any UPI app • Auto-verifying payment...</p>
+          <div class="qr-amount">₹<span id="qr-amount-value">0</span></div>
+        </div>
+      </div>
+
+      <!-- Step 2b: Card Form -->
+      <div class="payment-step" id="pay-step-card">
+        <h2 class="payment-modal-title">CARD PAYMENT</h2>
+        <div class="card-form">
+          <div class="card-visual">
+            <div class="card-chip"></div>
+            <div class="card-number-display" id="card-display-num">•••• •••• •••• ••••</div>
+            <div class="card-bottom">
+              <span class="card-holder-display">CARD HOLDER</span>
+              <span class="card-expiry-display">MM/YY</span>
+            </div>
+            <div class="card-logo">VISA</div>
+          </div>
+          <div class="form-fields">
+            <div class="form-group">
+              <label class="form-label">CARD NUMBER</label>
+              <input type="text" class="form-input" placeholder="0000 0000 0000 0000" maxlength="19"
+                id="input-card-num">
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">EXPIRY</label>
+                <input type="text" class="form-input" placeholder="MM/YY" maxlength="5" id="input-card-exp">
+              </div>
+              <div class="form-group">
+                <label class="form-label">CVV</label>
+                <input type="password" class="form-input" placeholder="•••" maxlength="3" id="input-card-cvv">
+              </div>
+            </div>
+            <button class="action-btn pay-now-btn" id="btn-pay-card">
+              <span class="btn-glyph">⚡</span> PAY <span id="card-pay-amount">$0.00</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 2c: Netbanking -->
+      <div class="payment-step" id="pay-step-netbanking">
+        <h2 class="payment-modal-title">NETBANKING</h2>
+        <div class="bank-grid">
+          <button class="bank-option" data-bank="SBI">🏦 State Bank of India</button>
+          <button class="bank-option" data-bank="HDFC">🏦 HDFC Bank</button>
+          <button class="bank-option" data-bank="ICICI">🏦 ICICI Bank</button>
+          <button class="bank-option" data-bank="AXIS">🏦 Axis Bank</button>
+          <button class="bank-option" data-bank="KOTAK">🏦 Kotak Mahindra</button>
+          <button class="bank-option" data-bank="PNB">🏦 Punjab National Bank</button>
+        </div>
+        <button class="action-btn pay-now-btn" id="btn-pay-netbanking" disabled>
+          <span class="btn-glyph">🏦</span> PAY VIA NETBANKING
+        </button>
+      </div>
+
+      <!-- Step 2d: EMI -->
+      <div class="payment-step" id="pay-step-emi">
+        <h2 class="payment-modal-title">EMI OPTIONS</h2>
+        <div class="emi-options">
+          <button class="emi-option" data-months="3">
+            <span class="emi-months">3 MONTHS</span>
+            <span class="emi-amount" id="emi-3">$0/mo</span>
+            <span class="emi-interest">0% Interest</span>
+          </button>
+          <button class="emi-option" data-months="6">
+            <span class="emi-months">6 MONTHS</span>
+            <span class="emi-amount" id="emi-6">$0/mo</span>
+            <span class="emi-interest">5% Interest</span>
+          </button>
+          <button class="emi-option" data-months="12">
+            <span class="emi-months">12 MONTHS</span>
+            <span class="emi-amount" id="emi-12">$0/mo</span>
+            <span class="emi-interest">10% Interest</span>
+          </button>
+        </div>
+        <button class="action-btn pay-now-btn" id="btn-pay-emi" disabled>
+          <span class="btn-glyph">📊</span> CONFIRM EMI
+        </button>
+      </div>
+
+      <!-- Step 3: Processing -->
+      <div class="payment-step" id="pay-step-processing">
+        <div class="processing-container">
+          <div class="processing-rings">
+            <div class="proc-ring r1"></div>
+            <div class="proc-ring r2"></div>
+            <div class="proc-ring r3"></div>
+            <div class="proc-core">⚡</div>
+          </div>
+          <h2 class="payment-modal-title">PROCESSING PAYMENT</h2>
+          <p class="processing-status" id="processing-status">Connecting to gateway...</p>
+        </div>
+      </div>
+
+      <!-- Step 4: Success -->
+      <div class="payment-step" id="pay-step-success">
+        <div class="success-container">
+          <div class="success-checkmark">
+            <svg viewBox="0 0 100 100" class="success-svg">
+              <circle cx="50" cy="50" r="45" class="success-circle" />
+              <path d="M30 50 L45 65 L70 35" class="success-check" />
+            </svg>
+          </div>
+          <h2 class="payment-modal-title success-title">PAYMENT SUCCESSFUL</h2>
+          <div class="success-txn-id" id="success-txn-id">TXN-XXXXXXXX</div>
+          <div class="success-amount" id="success-amount">$0.00</div>
+          <p class="success-msg">Transaction recorded on blockchain ledger</p>
+          <button class="action-btn" id="btn-pay-done">
+            <span class="btn-glyph">✓</span> DONE
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="js/canvas-engine.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/ui-controller.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
